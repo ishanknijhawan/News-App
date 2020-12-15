@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/topHeadlinesFragment"
+        android:icon="@drawable/ic_stat"
+        android:title="Trending"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/everyThingNews"
+        android:icon="@drawable/ic_newspaper"
+        android:orderInCategory="2"
+        android:title="Everything"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/sourcesFragment"
+        android:orderInCategory="3"
+        android:icon="@drawable/ic_open_folder_with_document"
+        android:title="Sources"
+        app:showAsAction="always"
+        />
+
+</menu>
